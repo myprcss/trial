@@ -8,7 +8,7 @@ int main()
  
    printf("Declaring Variables\n");
     printf("\n");
-    int age = 20;
+    int age = 89;
     float height = 147.32;
     double weight = 43.3242234543;
     char gender = 'F';
