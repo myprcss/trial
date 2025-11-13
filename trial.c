@@ -57,6 +57,46 @@ int main()
     printf("\n");
 
 
+<<<<<<< HEAD
+=======
+        printf("Assignment operators");
+    printf("\n");
+    //using the same value
+        printf("x = 95\n");
+        printf("y = 8\n");
+    printf("\n");
+    x += 2;
+    y *= 21;
+    printf("Sum of x+=2: %d\n",x);
+    printf("Product of y*= 21: %d\n", y);
+    printf("\n");
+
+// Using Loops
+    printf("Using while loop to print numbers from 1 to 10\n");
+    int a = 1;
+    while (a <= 10){
+        printf(" %d ", a);
+     a++;}
+    printf("\n");
+    printf("\n");
+    printf("Using for loop to print even numbers from 2 to 20\n");
+    int b;
+    for(b = 2; b <= 20; b +=2){
+        printf(" %d ", b);
+    }
+    printf("\n");
+    printf("\n");
+    printf("Using do-loop to print numbers from 1 to 5\n");
+    int c = 1;
+    do{
+        printf(" %d ", c);
+        c++;
+    }
+    while (c<=5);
+    printf("\n");
+    printf("\n");
+
+>>>>>>> 97f3d2895e7cc4dd4b9e6332d763e61149932a2e
 
     return 0;
 } 
